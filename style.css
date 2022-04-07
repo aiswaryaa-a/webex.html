@@ -1,0 +1,296 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.menubar{
+    height: 7rem;
+    width: 100%;
+    top: 0%;
+    margin: 0;
+    padding: 0%;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    border-radius: 0rem;
+    display: flex;
+}
+.menubar a{
+    color: azure;
+    text-align: center;
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 2rem;
+    display: inline-flex;
+}
+.logo{
+    background-color: bisque;
+    border-radius: 5rem;
+}
+.rmimage-1{
+    height: auto;
+    width: auto;
+    border-radius: 2rem;
+}
+.image-1{
+    height: 75rem;
+    width: 100%;
+    border-radius: 2rem;
+}
+.container{
+    margin: 1rem;
+    position: static;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: right 20px;
+}
+.container-box{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 1rem;
+    width: 1500px;
+    height: 500px;
+    margin-left: 0rem;
+    margin-top: 3rem;
+    padding-bottom: 5rem;
+}
+.content{
+    margin-top: 2rem;
+    margin-left: 0%;
+    padding: .1rem;
+    padding-right:3rem;
+    padding-left: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: block;
+    justify-content: space-between;
+    height: 400px;
+    width: 750px;
+    background-color: #E4AEC5;
+    border-radius: 5rem;
+    align-items: center;
+}
+.d-image{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+    border-radius: 50rem;
+    height: 30rem;
+    padding-left: 2px;
+    border: 2px;
+    border-width: 3px;
+    border-style: dotted;
+}
+.content h1{
+    color: #243D25;
+    display: block;
+    text-align: center;
+}
+.content p{
+    color: #362706;
+}
+.content.content span{
+    color: rgb(103, 56, 0);
+    font-style: italic;
+    font-size: larger;
+    text-decoration-style: wavy;
+    display: block;
+    padding: .75rem;
+}
+.content p{
+    color: rgb(0, 69, 69);
+    padding-bottom: 2rem;
+    font-size: large;
+    font-weight: lighter;
+}
+/*second design*/
+.container-1{
+    margin: 1rem;
+    padding-bottom: 5rem;
+    position: static;
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: right 20px;
+    
+}
+.container-box-1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    width: 1500px;
+    height: 500px;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: 3rem;
+}
+.content-1{
+    margin-top: 2rem;
+    margin-left: 0%;
+    padding: .1rem;
+    padding-right:5rem;
+    padding-left: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: block;
+    justify-content: space-between;
+    height: 400px;
+    width: 750px;
+    background-color: #c9fff1;
+    border-radius: 5rem;
+    align-items: center;
+}
+.d-image-1{
+    margin-left: 0rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    border-radius: 50rem;
+    height: 30rem;
+    padding-left: 2px;
+    border: 2px;
+    border-width: 3px;
+    border-style: dotted;
+}
+.content-1 h1{
+    color: #243D25;
+    display: block;
+    text-align: center;
+}
+.content-1 p{
+    color: #362706;
+}
+.content.content-1 span{
+    color: rgb(103, 56, 0);
+    font-style: italic;
+    font-size: larger;
+    text-decoration-style: wavy;
+    display: block;
+    padding: .75rem;
+}
+.content-1 p{
+    color: rgb(0, 69, 69);
+    padding-bottom: 5rem;
+    font-size: large;
+    font-weight: lighter;
+}
+.freetoask{
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+    padding-bottom: 2rem;
+}
+.qimage{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 20rem;
+}
+#name{
+    height: 3rem;
+    width: 15rem;
+    border-radius: 2rem;
+    border-color: aqua;
+}
+#email{
+    height: 3rem;
+    width: 15rem;
+    border-radius: 2rem;
+    border-color: aqua;
+}
+#questions{
+    height: 3rem;
+    width: 15rem;
+    border-radius: 2rem;
+    border-color: aqua;
+}
+.submit{
+    height: 3rem;
+    width: 15rem;
+    border-radius: 2rem;
+    border-color: rgb(23, 0, 114);
+}
+.form{
+    display: block;
+}
+.center{
+    background-image: url(https://st1.bollywoodlife.com/wp-content/uploads/2022/04/Rashmika-16.png);
+    background-repeat: no-repeat;
+    width: 35rem;
+    border-radius: 5rem;
+    padding: 2rem;
+    padding-bottom: 2rem;
+}
+section #contacts{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+}
+footer{
+    margin: 0%;
+    padding: 0%;
+    height: 10rem;
+    background-color: #1B1A17;
+    border-radius: 2rem;
+    color: #E4AEC5;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0srem;
+}
+.socialmedia{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem;
+}
+.media{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem;
+}
+#media-fb{
+    border: 2px;
+    border-color: #c9fff1;
+    border-style: solid;
+    border-radius: 1.1rem;
+    padding:0.4rem;
+    margin: 1rem;
+    background-color: hsl(34, 78%, 91% , 1);
+    color: rgb(0, 0, 0);
+}
+#media-w{
+    border: 2px;
+    border-color: #c9fff1;
+    border-style: solid;
+    border-radius: 1.1rem;
+    padding: 0.4rem;
+    margin: 1rem;
+    background-color: hsl(34, 78%, 91% , 1);
+    color: rgb(0, 0, 0);
+}
+#media-t{
+    border: 2px;
+    border-color: #c9fff1;
+    border-style: solid;
+    border-radius: 1.1rem;
+    padding: 0.4rem;
+    margin: 1rem;
+    background-color: hsl(34, 78%, 91% , 1);
+    color: rgb(0, 0, 0);
+}
+#media-l{
+    border: 2px;
+    border-color: #c9fff1;
+    border-style: solid;
+    border-radius: 1.1rem;
+    padding: 0.4em;
+    margin: 1rem;
+    background-color: hsl(34, 78%, 91% , 1);
+    color: rgb(0, 0, 0);
+}
+.copyright{
+    align-items: center;
+    padding-left: 2rem;
+}
